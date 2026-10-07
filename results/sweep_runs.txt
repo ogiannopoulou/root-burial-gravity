@@ -1,0 +1,9 @@
+  K_circ   lat/L   depth/L   label      (K_grav=150, 60 steps x 100s)
+       0   0.000    0.909  straight
+     150   0.121    0.159  waving
+     400   0.092    0.453  waving
+     800   0.077    0.270  straight
+    1500   0.122    0.020  waving
+    2500   0.144    0.114  waving
+    4000   0.154    0.136  waving
+    6000   0.169    0.321  waving

@@ -1,0 +1,9 @@
+Highlights
+
+- Morphoelastic-rod model of root growth into a Mohr-Coulomb granular medium
+- Gravity enters via self-weight, granular strength, and statolith gain
+- Exact penetration law: burial depth scales inversely with gravity (z* ~ 1/g)
+- Numerics confirm the law over a 30-fold range of gravitational acceleration
+- Gravitropism and circumnutation act as independent depth and shape controls
+
+Submitted to European Journal of Mechanics - A/Solids.

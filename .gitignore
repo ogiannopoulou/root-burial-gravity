@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+# LaTeX working files
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.lof
+*.lot
+*.toc
+*.synctex.gz
+
+# Private submission correspondence (not published)
+manuscript/cover_letter.tex
+manuscript/cover_letter.pdf*.spl
