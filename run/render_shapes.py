@@ -40,8 +40,11 @@ for idx, (name, g) in enumerate(BODIES):
 fig.suptitle("Root growth into granular medium under body gravity "
              "(K_grav ~ g, circ=80 1/m, L_final ~ 40mm)", fontsize=13)
 fig.tight_layout(rect=[0, 0, 1, 0.96])
-out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..",
-                   "figures", "gravity_trajectories.png")
-os.makedirs(os.path.dirname(out), exist_ok=True)
-fig.savefig(out, dpi=150)
-print("WROTE", out)
+figdir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "figures")
+os.makedirs(figdir, exist_ok=True)
+pdf_out = os.path.join(figdir, "gravity_trajectories.pdf")
+png_out = os.path.join(figdir, "gravity_trajectories.png")
+fig.savefig(pdf_out)
+fig.savefig(png_out, dpi=300)
+print("WROTE", pdf_out)
+print("WROTE", png_out)

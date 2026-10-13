@@ -13,5 +13,8 @@ __pycache__/
 *.synctex.gz
 
 # Private submission correspondence (not published)
-manuscript/cover_letter.tex
-manuscript/cover_letter.pdf*.spl
+manuscript/cover_letter*
+manuscript/title_page*
+manuscript/vitae*
+manuscript/*.docx
+*.spl
